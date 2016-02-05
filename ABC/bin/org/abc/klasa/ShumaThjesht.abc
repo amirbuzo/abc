@@ -1,6 +1,0 @@
-klasa  KOTI{
-publike statike asgje kryesore(Tekst [] arg)
-{
-Sistem.printo(3+2);
-}
-} 
