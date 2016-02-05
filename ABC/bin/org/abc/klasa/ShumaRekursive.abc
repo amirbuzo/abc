@@ -1,0 +1,77 @@
+klasa  ShumaAmir {
+  publike statike asgje kryesore(Tekst[] a){
+	 Sistem.printo(iri Test().shuma(12));
+  }
+} 
+
+klasa Test {
+   publike numer shuma( numer s) {
+     numer shuma;
+     shuma = 0;
+     ndersa (0 < s) {
+       shuma = shuma + s;   
+       s = s - 1;
+ 	 }
+ 	 nese(1 < shuma)
+ 	 {	Sistem.printo(fals);}
+ 	 tjeter
+ 	 {	Sistem.printo(fals);}
+
+ 	 Sistem.printo(vertete);
+ 	 Sistem.printo(shuma);
+ 	 Sistem.printo(shuma+"fsn");
+ 	 Sistem.printo(vertete+"fs");
+ 	 Sistem.printo(5+vertete);
+ 	 Sistem.printo(vertete+5);
+ 	 Sistem.printo(2+"fs");
+ 	 Sistem.printo( fals +"fs");
+ 	 Sistem.printo(fals+1);
+ 	 Sistem.printo("fs"+fals);
+ 	 Sistem.printo("fs"+vertete);
+
+	Sistem.printo(iri kot().hehe("mairama"));
+	
+		Sistem.printo(ky.hehe("mairama"));
+		
+		
+		
+		
+		nese(7<5)
+		{ Sistem.printo("madhe");}
+		tjeter
+		{	 Sistem.printo("vogel");
+		}
+		
+		nese(7>5)
+		{
+		 Sistem.printo("madhe");
+		}
+		tjeter
+		{
+			 Sistem.printo("vogel");
+		}
+	
+	
+    kthe shuma;
+  }
+  
+  publike Tekst hehe(Tekst c)
+	{
+	  kthe c;
+	}
+
+}
+
+klasa kot{ 
+  //comente d
+publike Tekst hehe(Tekst c)
+{
+	Tekst a;
+		a="sss";
+		Sistem.printo("a");
+		Sistem.printo(a);
+		Sistem.printo( vertete );
+ 
+		kthe "dd";
+	}
+}

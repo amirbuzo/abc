@@ -1,0 +1,337 @@
+klasa binarytree{
+    publike statike asgje kryesore(Tekst [] a){
+	Sistem.printo(iri BT().Start());
+    }
+}
+
+
+// This klasa invokes the methods to create a tree,
+// insert, delete and serach for  elements on it
+klasa BT {
+
+    publike numer Start(){
+	Tree root ;
+	bul ntb ;
+	numer nti ;
+
+	root = iri Tree();
+	ntb = root.Init(16);
+	ntb = root.Prnumer();
+	Sistem.printo(100000000);
+	ntb = root.Insert(8) ;
+	ntb = root.Prnumer();
+	ntb = root.Insert(24) ;
+	ntb = root.Insert(4) ;
+	ntb = root.Insert(12) ;
+	ntb = root.Insert(20) ;
+	ntb = root.Insert(28) ;
+	ntb = root.Insert(14) ;
+	ntb = root.Prnumer();
+	Sistem.printo(root.Search(24));
+	Sistem.printo(root.Search(12));
+	Sistem.printo(root.Search(16));
+	Sistem.printo(root.Search(50));
+	Sistem.printo(root.Search(12));
+	ntb = root.Delete(12);
+	ntb = root.Prnumer();
+	Sistem.printo(root.Search(12));
+
+	kthe 0 ;
+    }
+
+}
+
+klasa Tree{
+    Tree left ;
+    Tree right;
+    numer key ;
+    bul has_left ;
+    bul has_right ;
+    Tree my_null ;
+
+    // Initialize a node with a key value and no children
+    publike bul Init(numer v_key){
+	key = v_key ;
+	has_left = fals ;
+	has_right = fals ;
+	kthe vertete ;
+    }
+
+    // Update the right child with rn
+    publike bul SetRight(Tree rn){
+	right = rn ;
+	kthe vertete ;
+    }
+
+    // Update the left child with ln
+    publike bul SetLeft(Tree ln){
+	left = ln ;
+	kthe vertete ;
+    }
+
+    publike Tree GetRight(){
+	kthe right ;
+    }
+
+    publike Tree GetLeft(){
+	kthe left;
+    }
+
+    publike numer GetKey(){
+	kthe key ;
+    }
+
+    publike bul SetKey(numer v_key){
+	key = v_key ;
+	kthe vertete ;
+    }
+
+    publike bul GetHas_Right(){
+	kthe has_right ;
+    }
+
+    publike bul GetHas_Left(){
+	kthe has_left ;
+    }
+
+    publike bul SetHas_Left(bul val){
+	 has_left = val ;
+	 kthe vertete ;
+    }
+
+    publike bul SetHas_Right(bul val){
+	 has_right = val ;
+	 kthe vertete ;
+    }
+
+    // This method compares two numeregers and
+    // kthes vertete nese they are equal and fals
+    // otherwise
+    publike bul Compare(numer num1 , numer num2){
+	bul ntb ;
+	numer nti ;
+
+	ntb = fals ;
+	nti = num2 + 1 ;
+	nese (num1 < num2) ntb = fals ;
+	tjeter nese (!(num1 < nti)) ntb = fals ;
+	tjeter ntb = vertete ;
+	kthe ntb ;
+    }
+
+
+    // Insert a iri element in the tree
+    publike bul Insert(numer v_key){
+	Tree iri_node ;
+	bul ntb ;
+	bul cont ;
+	numer key_aux ;
+	Tree current_node ;
+
+	iri_node = iri Tree();
+	ntb = iri_node.Init(v_key) ;
+	current_node = ky ;
+	cont = vertete ;
+	ndersa (cont){
+	    key_aux = current_node.GetKey();
+	    nese (v_key < key_aux){
+		nese (current_node.GetHas_Left())
+		    current_node = current_node.GetLeft() ;
+		tjeter {
+		    cont = fals ;
+		    ntb = current_node.SetHas_Left(vertete);
+		    ntb = current_node.SetLeft(iri_node);
+		}
+	    }
+	    tjeter{
+
+		nese (current_node.GetHas_Right())
+		    current_node = current_node.GetRight() ;
+		tjeter {
+		    cont = fals ;
+		    ntb = current_node.SetHas_Right(vertete);
+		    ntb = current_node.SetRight(iri_node);
+		}
+	    }
+	}
+	kthe vertete ;
+    }
+
+
+    // Delete an element from the tree
+    publike bul Delete(numer v_key){
+	Tree current_node ;
+	Tree parent_node ;
+	bul cont ;
+	bul found ;
+	bul is_root ;
+	numer key_aux ;
+	bul ntb ;
+
+	current_node = ky ;
+	parent_node = ky ;
+	cont = vertete ;
+	found = fals ;
+	is_root = vertete ;
+	ndersa (cont){
+	    key_aux = current_node.GetKey();
+	    nese (v_key < key_aux)
+		nese (current_node.GetHas_Left()){
+		    parent_node = current_node ;
+		    current_node = current_node.GetLeft() ;
+		}
+		tjeter cont = fals ;
+	    tjeter
+		nese (key_aux < v_key)
+		    nese (current_node.GetHas_Right()){
+			parent_node = current_node ;
+			current_node = current_node.GetRight() ;
+		    }
+		    tjeter cont = fals ;
+		tjeter {
+		    nese (is_root)
+			nese ((!current_node.GetHas_Right()) &&
+			    (!current_node.GetHas_Left()) )
+			    ntb = vertete ;
+			tjeter
+			    ntb = ky.Remove(parent_node,current_node);
+		    tjeter ntb = ky.Remove(parent_node,current_node);
+		    found = vertete ;
+		    cont = fals ;
+		}
+	    is_root = fals ;
+	}
+	kthe found ;
+    }
+
+
+    // Check nese the element to be removed will use the
+    // righ or left subtree nese one exists
+    publike bul Remove(Tree p_node, Tree c_node){
+	bul ntb ;
+	numer auxkey1 ;
+	numer auxkey2 ;
+
+	nese (c_node.GetHas_Left())
+	    ntb = ky.RemoveLeft(p_node,c_node) ;
+	tjeter
+	    nese (c_node.GetHas_Right())
+		ntb = ky.RemoveRight(p_node,c_node) ;
+	    tjeter {
+		auxkey1 = c_node.GetKey();
+		//auxtree01 = p_node.GetLeft() ;
+		//auxkey2 = auxtree01.GetKey() ;
+		auxkey2 = (p_node.GetLeft()).GetKey() ;
+		nese (ky.Compare(auxkey1,auxkey2)) {
+		    ntb = p_node.SetLeft(my_null);
+		    ntb = p_node.SetHas_Left(fals);
+		}
+		tjeter {
+		    ntb = p_node.SetRight(my_null);
+		    ntb = p_node.SetHas_Right(fals);
+		}
+	    }
+	kthe vertete ;
+    }
+
+
+    // Copy the child key to the parent until a leaf is
+    // found and remove the leaf. This is done with the
+    // right subtree
+    publike bul RemoveRight(Tree p_node, Tree c_node){
+	bul ntb ;
+
+	ndersa (c_node.GetHas_Right()){
+	    //auxtree01 = c_node.GetRight() ;
+	    //auxnumer02 = auxtree01.GetKey();
+	    //ntb = c_node.SetKey(auxnumer02);
+	    ntb = c_node.SetKey((c_node.GetRight()).GetKey());
+	    p_node = c_node ;
+	    c_node = c_node.GetRight() ;
+	}
+	ntb = p_node.SetRight(my_null);
+	ntb = p_node.SetHas_Right(fals);
+
+	kthe vertete;
+
+  }
+
+
+    // Copy the child key to the parent until a leaf is
+    // found and remove the leaf. This is done with the
+    // left subtree
+    publike bul RemoveLeft(Tree p_node, Tree c_node){
+	bul ntb ;
+
+	ndersa (c_node.GetHas_Left()){
+	    //auxtree01 = c_node.GetLeft() ;
+	    //auxnumer02 = auxtree01.GetKey();
+	    //ntb = c_node.SetKey(auxnumer02);
+	    ntb = c_node.SetKey((c_node.GetLeft()).GetKey());
+	    p_node = c_node ;
+	    c_node = c_node.GetLeft() ;
+	}
+	ntb = p_node.SetLeft(my_null);
+	ntb = p_node.SetHas_Left(fals);
+	kthe vertete ;
+    }
+
+    // Search for an elemnt in the tree
+    publike numer Search(numer v_key){
+	bul cont ;
+	numer neseound ;
+	Tree current_node;
+	numer key_aux ;
+
+	current_node = ky ;
+	cont = vertete ;
+	neseound = 0 ;
+	ndersa (cont){
+	    key_aux = current_node.GetKey();
+	    nese (v_key < key_aux)
+		nese (current_node.GetHas_Left())
+		    current_node = current_node.GetLeft() ;
+		tjeter cont = fals ;
+	    tjeter
+		nese (key_aux < v_key)
+		    nese (current_node.GetHas_Right())
+			current_node = current_node.GetRight() ;
+		    tjeter cont = fals ;
+		tjeter {
+		    neseound = 1 ;
+		    cont = fals ;
+		}
+	}
+	kthe neseound ;
+    }
+
+    // Invoke the method to really prnumer the tree elements
+    publike bul Prnumer(){
+	Tree current_node;
+	bul ntb ;
+
+	current_node = ky ;
+	ntb = ky.RecPrnumer(current_node);
+	kthe vertete ;
+    }
+
+    // Prnumer the elements of the tree
+    publike bul RecPrnumer(Tree node){
+	bul ntb ;
+
+	nese (node.GetHas_Left()){
+	    //auxtree01 = node.GetLeft() ;
+	    //ntb = ky.RecPrnumer(auxtree01);
+	    ntb = ky.RecPrnumer(node.GetLeft());
+	} tjeter ntb = vertete ;
+	Sistem.printo(node.GetKey());
+	nese (node.GetHas_Right()){
+	    //auxtree01 = node.GetRight() ;
+	    //ntb = ky.RecPrnumer(auxtree01);
+	    ntb = ky.RecPrnumer(node.GetRight());
+	} tjeter ntb = vertete;
+	kthe vertete ;
+    }
+
+}
+
