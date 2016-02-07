@@ -1,4 +1,4 @@
-klasa  KOTI{
+klasa  ShumaThjesht{
 publike statike asgje kryesore(Tekst [] arg)
 {
 Sistem.printo(3+2);

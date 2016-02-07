@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g 2015-09-28 22:35:14
+// $ANTLR 3.5.1 C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g 2015-09-28 22:35:14
 package org.abc.typecheck;
 
 import org.antlr.runtime.BitSet;
@@ -204,7 +204,7 @@ public class ABCParser extends Parser {
 
     @Override
     public String getGrammarFileName() {
-        return "C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g";
+        return "C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g";
     }
 
     public static class goal_return extends ParserRuleReturnScope {
@@ -217,7 +217,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "goal"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:82:1: goal : mainClass ( classDeclaration
     // )* -> ^( FILE mainClass ( classDeclaration )* ) ;
     public final ABCParser.goal_return goal() throws RecognitionException {
@@ -235,11 +235,11 @@ public class ABCParser extends Parser {
                 adaptor, "rule classDeclaration");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:82:6: ( mainClass (
             // classDeclaration )* -> ^( FILE mainClass ( classDeclaration )* )
             // )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:82:8: mainClass (
             // classDeclaration )*
             {
@@ -248,7 +248,7 @@ public class ABCParser extends Parser {
                 state._fsp--;
 
                 stream_mainClass.add(mainClass1.getTree());
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:82:18: (
                 // classDeclaration )*
                 loop1: while (true) {
@@ -349,7 +349,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "mainClass"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:84:1: mainClass : CLASS identifier '{'
     // 'publike' 'statike' 'asgje' 'kryesore' '(' 'Tekst' '[' ']' identifier ')'
     // '{' statement '}' '}' -> ^( MAIN_CLASS identifier ^( MAIN_METHOD ^(
@@ -423,12 +423,12 @@ public class ABCParser extends Parser {
                 adaptor, "rule statement");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:85:2: ( CLASS
             // identifier '{' 'publike' 'statike' 'asgje' 'kryesore' '(' 'Tekst'
             // '[' ']' identifier ')' '{' statement '}' '}' -> ^( MAIN_CLASS
             // identifier ^( MAIN_METHOD ^( PARAM_LIST ) statement ) ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:85:4: CLASS
             // identifier '{' 'publike' 'statike' 'asgje' 'kryesore' '(' 'Tekst'
             // '[' ']' identifier ')' '{' statement '}' '}'
@@ -593,7 +593,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "classDeclaration"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:90:1: classDeclaration : CLASS identifier
     // '{' varDeclarationList methodDeclarationList '}' -> ^( CLASS identifier
     // varDeclarationList methodDeclarationList ) ;
@@ -628,11 +628,11 @@ public class ABCParser extends Parser {
                 adaptor, "rule varDeclarationList");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:91:2: ( CLASS
             // identifier '{' varDeclarationList methodDeclarationList '}' -> ^(
             // CLASS identifier varDeclarationList methodDeclarationList ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:91:4: CLASS
             // identifier '{' varDeclarationList methodDeclarationList '}'
             {
@@ -730,7 +730,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "varDeclarationList"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:96:1: varDeclarationList : (
     // varDeclaration )* -> ^( VAR_LIST ( varDeclaration )* ) ;
     public final ABCParser.varDeclarationList_return varDeclarationList()
@@ -746,14 +746,14 @@ public class ABCParser extends Parser {
                 adaptor, "rule varDeclaration");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:97:2: ( (
             // varDeclaration )* -> ^( VAR_LIST ( varDeclaration )* ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:97:4: (
             // varDeclaration )*
             {
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:97:4: (
                 // varDeclaration )*
                 loop2: while (true) {
@@ -859,7 +859,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "varDeclaration"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:100:1: varDeclaration : type identifier
     // ';' -> ^( VAR_DECL ^( TYPE_REF type ) identifier ) ;
     public final ABCParser.varDeclaration_return varDeclaration()
@@ -882,10 +882,10 @@ public class ABCParser extends Parser {
                 adaptor, "rule type");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:101:2: ( type
             // identifier ';' -> ^( VAR_DECL ^( TYPE_REF type ) identifier ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:101:4: type
             // identifier ';'
             {
@@ -979,7 +979,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "methodDeclarationList"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:104:1: methodDeclarationList : (
     // methodDeclaration )* -> ^( METHOD_LIST ( methodDeclaration )* ) ;
     public final ABCParser.methodDeclarationList_return methodDeclarationList()
@@ -995,14 +995,14 @@ public class ABCParser extends Parser {
                 adaptor, "rule methodDeclaration");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:105:2: ( (
             // methodDeclaration )* -> ^( METHOD_LIST ( methodDeclaration )* ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:105:4: (
             // methodDeclaration )*
             {
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:105:4: (
                 // methodDeclaration )*
                 loop3: while (true) {
@@ -1102,7 +1102,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "methodDeclaration"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:108:1: methodDeclaration : 'publike' type
     // identifier '(' ( param ( ',' param )* )? ')' '{' varDeclarationList (
     // statement )* ( 'kthe' expression ';' )? '}' -> ^( METHOD_DECL ^( TYPE_REF
@@ -1170,14 +1170,14 @@ public class ABCParser extends Parser {
                 adaptor, "rule type");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:109:2: ( 'publike'
             // type identifier '(' ( param ( ',' param )* )? ')' '{'
             // varDeclarationList ( statement )* ( 'kthe' expression ';' )? '}'
             // -> ^( METHOD_DECL ^( TYPE_REF type ) identifier ^( PARAM_LIST (
             // param )* ) ^( METHOD_BODY varDeclarationList ^( STMNT_LIST (
             // statement )* ( ^( RETURN expression ) )? ) ) ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:109:4: 'publike' type
             // identifier '(' ( param ( ',' param )* )? ')' '{'
             // varDeclarationList ( statement )* ( 'kthe' expression ';' )? '}'
@@ -1200,7 +1200,7 @@ public class ABCParser extends Parser {
                         FOLLOW_52_in_methodDeclaration542);
                 stream_52.add(char_literal34);
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:109:34: ( param (
                 // ',' param )* )?
                 int alt5 = 2;
@@ -1211,7 +1211,7 @@ public class ABCParser extends Parser {
                 }
                 switch (alt5) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:109:35: param (
                 // ',' param )*
                 {
@@ -1271,7 +1271,7 @@ public class ABCParser extends Parser {
                 state._fsp--;
 
                 stream_varDeclarationList.add(varDeclarationList40.getTree());
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:110:26: (
                 // statement )*
                 loop6: while (true) {
@@ -1302,7 +1302,7 @@ public class ABCParser extends Parser {
                     }
                 }
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:110:39: ( 'kthe'
                 // expression ';' )?
                 int alt7 = 2;
@@ -1312,7 +1312,7 @@ public class ABCParser extends Parser {
                 }
                 switch (alt7) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:110:40: 'kthe'
                 // expression ';'
                 {
@@ -1500,7 +1500,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "param"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:114:1: param : type identifier -> ^( PARAM
     // ^( TYPE_REF type ) identifier ) ;
     public final ABCParser.param_return param() throws RecognitionException {
@@ -1518,10 +1518,10 @@ public class ABCParser extends Parser {
                 adaptor, "rule type");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:114:7: ( type
             // identifier -> ^( PARAM ^( TYPE_REF type ) identifier ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:114:9: type
             // identifier
             {
@@ -1610,7 +1610,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "type"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:117:1: type : ( identifier | 'numer' '['
     // ']' -> ^( ARRAY_TYPE 'numer' ) | 'numer' | 'bul' | 'Tekst' | 'asgje' );
     public final ABCParser.type_return type() throws RecognitionException {
@@ -1643,7 +1643,7 @@ public class ABCParser extends Parser {
                 "token 60");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:117:7: ( identifier |
             // 'numer' '[' ']' -> ^( ARRAY_TYPE 'numer' ) | 'numer' | 'bul' |
             // 'Tekst' | 'asgje' )
@@ -1694,7 +1694,7 @@ public class ABCParser extends Parser {
             }
             switch (alt8) {
             case 1:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:117:9: identifier
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -1708,7 +1708,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 2:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:118:4: 'numer' '['
             // ']'
             {
@@ -1757,7 +1757,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 3:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:119:4: 'numer'
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -1770,7 +1770,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 4:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:120:4: 'bul'
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -1783,7 +1783,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 5:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:121:4: 'Tekst'
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -1796,7 +1796,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 6:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:122:4: 'asgje'
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -1838,7 +1838,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "expression"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:125:1: expression : orExpr ;
     public final ABCParser.expression_return expression()
             throws RecognitionException {
@@ -1850,9 +1850,9 @@ public class ABCParser extends Parser {
         ParserRuleReturnScope orExpr56 = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:126:2: ( orExpr )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:126:4: orExpr
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -1894,7 +1894,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "arrayLengthReference"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:130:1: arrayLengthReference : '.'
     // 'gjatesi' ;
     public final ABCParser.arrayLengthReference_return arrayLengthReference()
@@ -1911,10 +1911,10 @@ public class ABCParser extends Parser {
         CommonTree string_literal58_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:131:2: ( '.'
             // 'gjatesi' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:131:4: '.' 'gjatesi'
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -1959,7 +1959,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "expressionList"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:134:1: expressionList : ( expression ( ','
     // expression )* )? -> ^( EXPR_LIST ( expression )* ) ;
     public final ABCParser.expressionList_return expressionList()
@@ -1980,14 +1980,14 @@ public class ABCParser extends Parser {
                 adaptor, "rule expression");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:135:2: ( ( expression
             // ( ',' expression )* )? -> ^( EXPR_LIST ( expression )* ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:135:4: ( expression (
             // ',' expression )* )?
             {
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:135:4: (
                 // expression ( ',' expression )* )?
                 int alt10 = 2;
@@ -2000,7 +2000,7 @@ public class ABCParser extends Parser {
                 }
                 switch (alt10) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:135:5: expression
                 // ( ',' expression )*
                 {
@@ -2119,7 +2119,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "statement"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:138:1: statement : ( '{' ( statement )*
     // '}' -> ^( STMNT_LIST ( statement )* ) | IF ^ '(' ! expression ')' !
     // statement ELSE ! statement | WHILE ^ '(' ! expression ')' ! statement |
@@ -2217,7 +2217,7 @@ public class ABCParser extends Parser {
                 adaptor, "rule statement");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:139:2: ( '{' (
             // statement )* '}' -> ^( STMNT_LIST ( statement )* ) | IF ^ '(' !
             // expression ')' ! statement ELSE ! statement | WHILE ^ '(' !
@@ -2284,7 +2284,7 @@ public class ABCParser extends Parser {
             }
             switch (alt13) {
             case 1:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:139:4: '{' (
             // statement )* '}'
             {
@@ -2292,7 +2292,7 @@ public class ABCParser extends Parser {
                         FOLLOW_70_in_statement769);
                 stream_70.add(char_literal62);
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:139:8: (
                 // statement )*
                 loop11: while (true) {
@@ -2370,7 +2370,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 2:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:140:4: IF ^ '(' !
             // expression ')' ! statement ELSE ! statement
             {
@@ -2406,7 +2406,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 3:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:141:4: WHILE ^ '(' !
             // expression ')' ! statement
             {
@@ -2436,7 +2436,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 4:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:142:4: SYSOUT ^ '(' !
             // expression ')' ! ';' !
             {
@@ -2462,11 +2462,11 @@ public class ABCParser extends Parser {
             }
                 break;
             case 5:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:143:4: ( THIS |
             // identifier ) methodInvocation ';'
             {
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:143:4: ( THIS |
                 // identifier )
                 int alt12 = 2;
@@ -2485,7 +2485,7 @@ public class ABCParser extends Parser {
 
                 switch (alt12) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:143:5: THIS
                 {
                     THIS82 = (Token) match(input, THIS,
@@ -2495,7 +2495,7 @@ public class ABCParser extends Parser {
                 }
                     break;
                 case 2:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:143:10:
                 // identifier
                 {
@@ -2606,7 +2606,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 6:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:145:4: identifier '='
             // expression ';'
             {
@@ -2677,7 +2677,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 7:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:146:4: identifier '['
             // expression ']' '=' expression ';'
             {
@@ -2792,7 +2792,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "orExpr"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:150:1: orExpr : andExpr ( LOGIC_OR ^
     // andExpr )* ;
     public final ABCParser.orExpr_return orExpr() throws RecognitionException {
@@ -2808,10 +2808,10 @@ public class ABCParser extends Parser {
         CommonTree LOGIC_OR98_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:150:9: ( andExpr (
             // LOGIC_OR ^ andExpr )* )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:150:11: andExpr (
             // LOGIC_OR ^ andExpr )*
             {
@@ -2823,7 +2823,7 @@ public class ABCParser extends Parser {
 
                 adaptor.addChild(root_0, andExpr97.getTree());
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:150:19: (
                 // LOGIC_OR ^ andExpr )*
                 loop14: while (true) {
@@ -2889,7 +2889,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "andExpr"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:153:1: andExpr : compareExpr ( LOGIC_AND ^
     // compareExpr )* ;
     public final ABCParser.andExpr_return andExpr() throws RecognitionException {
@@ -2905,10 +2905,10 @@ public class ABCParser extends Parser {
         CommonTree LOGIC_AND101_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:153:9: ( compareExpr
             // ( LOGIC_AND ^ compareExpr )* )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:153:11: compareExpr (
             // LOGIC_AND ^ compareExpr )*
             {
@@ -2920,7 +2920,7 @@ public class ABCParser extends Parser {
 
                 adaptor.addChild(root_0, compareExpr100.getTree());
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:153:23: (
                 // LOGIC_AND ^ compareExpr )*
                 loop15: while (true) {
@@ -2987,7 +2987,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "compareExpr"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:156:1: compareExpr : additiveExpr ( ( BT
     // ^| LT ^) additiveExpr )? ;
     public final ABCParser.compareExpr_return compareExpr()
@@ -3006,10 +3006,10 @@ public class ABCParser extends Parser {
         CommonTree LT105_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:157:2: ( additiveExpr
             // ( ( BT ^| LT ^) additiveExpr )? )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:157:4: additiveExpr (
             // ( BT ^| LT ^) additiveExpr )?
             {
@@ -3021,7 +3021,7 @@ public class ABCParser extends Parser {
 
                 adaptor.addChild(root_0, additiveExpr103.getTree());
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:157:17: ( ( BT ^|
                 // LT ^) additiveExpr )?
                 int alt17 = 2;
@@ -3031,7 +3031,7 @@ public class ABCParser extends Parser {
                 }
                 switch (alt17) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:157:19: ( BT ^|
                 // LT ^) additiveExpr
                 {
@@ -3123,7 +3123,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "additiveExpr"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:161:1: additiveExpr : multExpr ( ( PLUS ^|
     // MINUS ^) multExpr )* ;
     public final ABCParser.additiveExpr_return additiveExpr()
@@ -3142,10 +3142,10 @@ public class ABCParser extends Parser {
         CommonTree MINUS109_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:162:2: ( multExpr ( (
             // PLUS ^| MINUS ^) multExpr )* )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:162:4: multExpr ( (
             // PLUS ^| MINUS ^) multExpr )*
             {
@@ -3157,7 +3157,7 @@ public class ABCParser extends Parser {
 
                 adaptor.addChild(root_0, multExpr107.getTree());
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:162:13: ( ( PLUS
                 // ^| MINUS ^) multExpr )*
                 loop19: while (true) {
@@ -3266,7 +3266,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "multExpr"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:165:1: multExpr : unaryExpr ( MULT ^
     // unaryExpr )* ;
     public final ABCParser.multExpr_return multExpr()
@@ -3283,10 +3283,10 @@ public class ABCParser extends Parser {
         CommonTree MULT112_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:165:9: ( unaryExpr (
             // MULT ^ unaryExpr )* )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:165:11: unaryExpr (
             // MULT ^ unaryExpr )*
             {
@@ -3298,7 +3298,7 @@ public class ABCParser extends Parser {
 
                 adaptor.addChild(root_0, unaryExpr111.getTree());
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:165:21: ( MULT ^
                 // unaryExpr )*
                 loop20: while (true) {
@@ -3364,7 +3364,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "unaryExpr"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:168:1: unaryExpr : ( UNARY_NOT ^)?
     // primaryExpression ;
     public final ABCParser.unaryExpr_return unaryExpr()
@@ -3380,16 +3380,16 @@ public class ABCParser extends Parser {
         CommonTree UNARY_NOT114_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:169:2: ( ( UNARY_NOT
             // ^)? primaryExpression )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:169:4: ( UNARY_NOT
             // ^)? primaryExpression
             {
                 root_0 = (CommonTree) adaptor.nil();
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:169:4: (
                 // UNARY_NOT ^)?
                 int alt21 = 2;
@@ -3399,7 +3399,7 @@ public class ABCParser extends Parser {
                 }
                 switch (alt21) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:169:5: UNARY_NOT
                 // ^
                 {
@@ -3450,7 +3450,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "primaryExpression"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:172:1: primaryExpression :
     // primaryExpressionPrefix ( ( '[' indexExpr= expression ']' -> ^(
     // ARRAY_READ primaryExpressionPrefix $indexExpr) ) | ( arrayLengthReference
@@ -3487,7 +3487,7 @@ public class ABCParser extends Parser {
                 adaptor, "rule arrayLengthReference");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:173:2: (
             // primaryExpressionPrefix ( ( '[' indexExpr= expression ']' -> ^(
             // ARRAY_READ primaryExpressionPrefix $indexExpr) ) | (
@@ -3495,7 +3495,7 @@ public class ABCParser extends Parser {
             // primaryExpressionPrefix ) ) | ( methodInvocation )+ -> ^(
             // METHOD_CALL primaryExpressionPrefix ( ^( SUFFIX_PART
             // methodInvocation ) )+ ) | -> primaryExpressionPrefix ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:173:4:
             // primaryExpressionPrefix ( ( '[' indexExpr= expression ']' -> ^(
             // ARRAY_READ primaryExpressionPrefix $indexExpr) ) | (
@@ -3509,7 +3509,7 @@ public class ABCParser extends Parser {
                 state._fsp--;
 
                 stream_primaryExpressionPrefix.add(primaryExpressionPrefix116.getTree());
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:174:3: ( ( '['
                 // indexExpr= expression ']' -> ^( ARRAY_READ
                 // primaryExpressionPrefix $indexExpr) ) | (
@@ -3566,7 +3566,7 @@ public class ABCParser extends Parser {
                 }
                 switch (alt23) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:175:7: ( '['
                 // indexExpr= expression ']' -> ^( ARRAY_READ
                 // primaryExpressionPrefix $indexExpr) )
@@ -3639,7 +3639,7 @@ public class ABCParser extends Parser {
                 }
                     break;
                 case 2:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:176:7: (
                 // arrayLengthReference -> ^( ARRAYLENGTH_REFERENCE
                 // primaryExpressionPrefix ) )
@@ -3701,7 +3701,7 @@ public class ABCParser extends Parser {
                 }
                     break;
                 case 3:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:177:7: (
                 // methodInvocation )+
                 {
@@ -3733,8 +3733,9 @@ public class ABCParser extends Parser {
                             break;
 
                         default:
-                            if (cnt22 >= 1)
+                            if (cnt22 >= 1) {
                                 break loop22;
+                            }
                             EarlyExitException eee = new EarlyExitException(22,
                                     input);
                             throw eee;
@@ -3802,7 +3803,7 @@ public class ABCParser extends Parser {
                 }
                     break;
                 case 4:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:178:7:
                 {
                     // AST REWRITE
@@ -3861,7 +3862,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "methodInvocation"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:182:1: methodInvocation : '.' ! identifier
     // '(' ! expressionList ')' !;
     public final ABCParser.methodInvocation_return methodInvocation()
@@ -3882,10 +3883,10 @@ public class ABCParser extends Parser {
         CommonTree char_literal125_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:183:2: ( '.' !
             // identifier '(' ! expressionList ')' !)
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:183:4: '.' !
             // identifier '(' ! expressionList ')' !
             {
@@ -3940,7 +3941,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "primaryExpressionPrefix"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:187:1: primaryExpressionPrefix : ( INTEGER
     // -> ^( CONST INTEGER ) | STRING -> ^( CONST STRING ) | TRUE -> ^( CONST
     // TRUE ) | FALSE -> ^( CONST FALSE ) | THIS | '(' ! expression ')' !| 'iri'
@@ -4013,7 +4014,7 @@ public class ABCParser extends Parser {
                 adaptor, "rule expression");
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:188:2: ( INTEGER ->
             // ^( CONST INTEGER ) | STRING -> ^( CONST STRING ) | TRUE -> ^(
             // CONST TRUE ) | FALSE -> ^( CONST FALSE ) | THIS | '(' !
@@ -4079,7 +4080,7 @@ public class ABCParser extends Parser {
             }
             switch (alt24) {
             case 1:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:188:4: INTEGER
             {
                 INTEGER126 = (Token) match(input, INTEGER,
@@ -4120,7 +4121,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 2:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:189:4: STRING
             {
                 STRING127 = (Token) match(input, STRING,
@@ -4161,7 +4162,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 3:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:190:4: TRUE
             {
                 TRUE128 = (Token) match(input, TRUE,
@@ -4202,7 +4203,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 4:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:191:4: FALSE
             {
                 FALSE129 = (Token) match(input, FALSE,
@@ -4243,7 +4244,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 5:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:192:4: THIS
             {
                 root_0 = (CommonTree) adaptor.nil();
@@ -4256,7 +4257,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 6:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:193:4: '(' !
             // expression ')' !
             {
@@ -4275,7 +4276,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 7:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:194:4: 'iri' 'numer'
             // '[' expression ']'
             {
@@ -4335,7 +4336,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 8:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:195:4: 'iri'
             // identifier '(' ')'
             {
@@ -4390,7 +4391,7 @@ public class ABCParser extends Parser {
             }
                 break;
             case 9:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:196:4: identifier
             {
                 pushFollow(FOLLOW_identifier_in_primaryExpressionPrefix1315);
@@ -4462,7 +4463,7 @@ public class ABCParser extends Parser {
     };
 
     // $ANTLR start "identifier"
-    // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION
+    // C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION
     // 1\\PA1\\ANTLRStarterKit\\ABC.g:201:1: identifier : IDENTIFIER ;
     public final ABCParser.identifier_return identifier()
             throws RecognitionException {
@@ -4476,9 +4477,9 @@ public class ABCParser extends Parser {
         CommonTree IDENTIFIER144_tree = null;
 
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:202:2: ( IDENTIFIER )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:202:4: IDENTIFIER
             {
                 root_0 = (CommonTree) adaptor.nil();

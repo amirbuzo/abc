@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g 2015-09-28 22:35:14
+// $ANTLR 3.5.1 C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g 2015-09-28 22:35:14
 package org.abc.typecheck;
 
 import org.antlr.runtime.BaseRecognizer;
@@ -169,7 +169,7 @@ public class ABCLexer extends Lexer {
 
     @Override
     public String getGrammarFileName() {
-        return "C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g";
+        return "C:\\Users\\user\\Desktop\\COMPILER CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g";
     }
 
     // $ANTLR start "BT"
@@ -177,9 +177,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = BT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:2:4: ( '>' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:2:6: '>'
             {
                 match('>');
@@ -199,9 +199,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:3:7: ( 'klasa' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:3:9: 'klasa'
             {
                 match("klasa");
@@ -222,9 +222,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:4:6: ( 'tjeter' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:4:8: 'tjeter'
             {
                 match("tjeter");
@@ -245,9 +245,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = FALSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:5:7: ( 'fals' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:5:9: 'fals'
             {
                 match("fals");
@@ -268,9 +268,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:6:4: ( 'nese' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:6:6: 'nese'
             {
                 match("nese");
@@ -291,9 +291,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = LOGIC_AND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:7:11: ( '&&' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:7:13: '&&'
             {
                 match("&&");
@@ -314,9 +314,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = LOGIC_OR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:8:10: ( '||' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:8:12: '||'
             {
                 match("||");
@@ -337,9 +337,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = LT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:9:4: ( '<' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:9:6: '<'
             {
                 match('<');
@@ -359,9 +359,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = MINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:10:7: ( '-' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:10:9: '-'
             {
                 match('-');
@@ -381,9 +381,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = MULT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:11:6: ( '*' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:11:8: '*'
             {
                 match('*');
@@ -403,9 +403,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = PLUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:12:6: ( '+' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:12:8: '+'
             {
                 match('+');
@@ -425,10 +425,10 @@ public class ABCLexer extends Lexer {
         try {
             int _type = SYSOUT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:13:8: (
             // 'Sistem.printo' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:13:10:
             // 'Sistem.printo'
             {
@@ -450,9 +450,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = THIS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:14:6: ( 'ky' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:14:8: 'ky'
             {
                 match("ky");
@@ -473,9 +473,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = TRUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:15:6: ( 'vertete' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:15:8: 'vertete'
             {
                 match("vertete");
@@ -496,9 +496,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = UNARY_NOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:16:11: ( '!' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:16:13: '!'
             {
                 match('!');
@@ -518,9 +518,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = WHILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:17:7: ( 'ndersa' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:17:9: 'ndersa'
             {
                 match("ndersa");
@@ -541,9 +541,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__52;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:18:7: ( '(' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:18:9: '('
             {
                 match('(');
@@ -563,9 +563,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__53;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:19:7: ( ')' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:19:9: ')'
             {
                 match(')');
@@ -585,9 +585,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:20:7: ( ',' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:20:9: ','
             {
                 match(',');
@@ -607,9 +607,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:21:7: ( '.' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:21:9: '.'
             {
                 match('.');
@@ -629,9 +629,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:22:7: ( ';' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:22:9: ';'
             {
                 match(';');
@@ -651,9 +651,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:23:7: ( '=' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:23:9: '='
             {
                 match('=');
@@ -673,9 +673,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:24:7: ( 'Tekst' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:24:9: 'Tekst'
             {
                 match("Tekst");
@@ -696,9 +696,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:25:7: ( '[' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:25:9: '['
             {
                 match('[');
@@ -718,9 +718,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:26:7: ( ']' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:26:9: ']'
             {
                 match(']');
@@ -740,9 +740,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:27:7: ( 'asgje' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:27:9: 'asgje'
             {
                 match("asgje");
@@ -763,9 +763,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:28:7: ( 'bul' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:28:9: 'bul'
             {
                 match("bul");
@@ -786,9 +786,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:29:7: ( 'gjatesi' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:29:9: 'gjatesi'
             {
                 match("gjatesi");
@@ -809,9 +809,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:30:7: ( 'iri' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:30:9: 'iri'
             {
                 match("iri");
@@ -832,9 +832,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:31:7: ( 'kryesore' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:31:9: 'kryesore'
             {
                 match("kryesore");
@@ -855,9 +855,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:32:7: ( 'kthe' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:32:9: 'kthe'
             {
                 match("kthe");
@@ -878,9 +878,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:33:7: ( 'numer' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:33:9: 'numer'
             {
                 match("numer");
@@ -901,9 +901,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:34:7: ( 'publike' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:34:9: 'publike'
             {
                 match("publike");
@@ -924,9 +924,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:35:7: ( 'statike' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:35:9: 'statike'
             {
                 match("statike");
@@ -947,9 +947,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:36:7: ( '{' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:36:9: '{'
             {
                 match('{');
@@ -969,9 +969,9 @@ public class ABCLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:37:7: ( '}' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:37:9: '}'
             {
                 match('}');
@@ -991,7 +991,7 @@ public class ABCLexer extends Lexer {
         try {
             int _type = INTEGER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:207:9: ( '0' | '1' ..
             // '9' ( '0' .. '9' )* )
             int alt2 = 2;
@@ -1010,19 +1010,19 @@ public class ABCLexer extends Lexer {
 
             switch (alt2) {
             case 1:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:207:11: '0'
             {
                 match('0');
             }
                 break;
             case 2:
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:208:4: '1' .. '9' (
             // '0' .. '9' )*
             {
                 matchRange('1', '9');
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:208:13: ( '0' ..
                 // '9' )*
                 loop1: while (true) {
@@ -1072,15 +1072,15 @@ public class ABCLexer extends Lexer {
         try {
             int _type = STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:211:10: ( '\"' (
             // IDENTIFIER )* '\"' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:211:12: '\"' (
             // IDENTIFIER )* '\"'
             {
                 match('\"');
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:211:15: (
                 // IDENTIFIER )*
                 loop3: while (true) {
@@ -1123,16 +1123,16 @@ public class ABCLexer extends Lexer {
         try {
             int _type = IDENTIFIER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:215:2: ( Letter (
             // Letter | DigitUS )* )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:215:4: Letter (
             // Letter | DigitUS )*
             {
                 mLetter();
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:215:11: ( Letter
                 // | DigitUS )*
                 loop4: while (true) {
@@ -1182,10 +1182,10 @@ public class ABCLexer extends Lexer {
     // $ANTLR start "Letter"
     public final void mLetter() throws RecognitionException {
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:220:8: ( 'a' .. 'z' |
             // 'A' .. 'Z' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:
             {
                 if ((input.LA(1) >= 'A' && input.LA(1) <= 'Z')
@@ -1209,10 +1209,10 @@ public class ABCLexer extends Lexer {
     // $ANTLR start "DigitUS"
     public final void mDigitUS() throws RecognitionException {
         try {
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:227:2: ( '0' .. '9' |
             // '_' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:
             {
                 if ((input.LA(1) >= '0' && input.LA(1) <= '9')
@@ -1238,10 +1238,10 @@ public class ABCLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:231:5: ( ( ' ' |
             // '\\r' | '\\t' | '\ ' | '\\n' ) )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:231:8: ( ' ' | '\\r'
             // | '\\t' | '\ ' | '\\n' )
             {
@@ -1272,16 +1272,16 @@ public class ABCLexer extends Lexer {
         try {
             int _type = LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:236:5: ( '//' (~ (
             // '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
-            // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+            // C:\\Users\\user\\Desktop\\COMPILER
             // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:236:7: '//' (~ (
             // '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
             {
                 match("//");
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:236:12: (~ (
                 // '\\n' | '\\r' ) )*
                 loop5: while (true) {
@@ -1316,7 +1316,7 @@ public class ABCLexer extends Lexer {
                     }
                 }
 
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:236:26: ( '\\r'
                 // )?
                 int alt6 = 2;
@@ -1326,7 +1326,7 @@ public class ABCLexer extends Lexer {
                 }
                 switch (alt6) {
                 case 1:
-                // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+                // C:\\Users\\user\\Desktop\\COMPILER
                 // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:236:26: '\\r'
                 {
                     match('\r');
@@ -1350,7 +1350,7 @@ public class ABCLexer extends Lexer {
 
     @Override
     public void mTokens() throws RecognitionException {
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:8: ( BT | CLASS | ELSE
         // | FALSE | IF | LOGIC_AND | LOGIC_OR | LT | MINUS | MULT | PLUS |
         // SYSOUT | THIS | TRUE | UNARY_NOT | WHILE | T__52 | T__53 | T__54 |
@@ -1361,7 +1361,7 @@ public class ABCLexer extends Lexer {
         alt7 = dfa7.predict(input);
         switch (alt7) {
         case 1:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:10: BT
         {
             mBT();
@@ -1369,7 +1369,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 2:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:13: CLASS
         {
             mCLASS();
@@ -1377,7 +1377,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 3:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:19: ELSE
         {
             mELSE();
@@ -1385,7 +1385,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 4:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:24: FALSE
         {
             mFALSE();
@@ -1393,7 +1393,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 5:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:30: IF
         {
             mIF();
@@ -1401,7 +1401,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 6:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:33: LOGIC_AND
         {
             mLOGIC_AND();
@@ -1409,7 +1409,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 7:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:43: LOGIC_OR
         {
             mLOGIC_OR();
@@ -1417,7 +1417,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 8:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:52: LT
         {
             mLT();
@@ -1425,7 +1425,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 9:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:55: MINUS
         {
             mMINUS();
@@ -1433,7 +1433,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 10:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:61: MULT
         {
             mMULT();
@@ -1441,7 +1441,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 11:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:66: PLUS
         {
             mPLUS();
@@ -1449,7 +1449,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 12:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:71: SYSOUT
         {
             mSYSOUT();
@@ -1457,7 +1457,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 13:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:78: THIS
         {
             mTHIS();
@@ -1465,7 +1465,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 14:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:83: TRUE
         {
             mTRUE();
@@ -1473,7 +1473,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 15:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:88: UNARY_NOT
         {
             mUNARY_NOT();
@@ -1481,7 +1481,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 16:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:98: WHILE
         {
             mWHILE();
@@ -1489,7 +1489,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 17:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:104: T__52
         {
             mT__52();
@@ -1497,7 +1497,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 18:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:110: T__53
         {
             mT__53();
@@ -1505,7 +1505,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 19:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:116: T__54
         {
             mT__54();
@@ -1513,7 +1513,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 20:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:122: T__55
         {
             mT__55();
@@ -1521,7 +1521,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 21:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:128: T__56
         {
             mT__56();
@@ -1529,7 +1529,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 22:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:134: T__57
         {
             mT__57();
@@ -1537,7 +1537,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 23:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:140: T__58
         {
             mT__58();
@@ -1545,7 +1545,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 24:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:146: T__59
         {
             mT__59();
@@ -1553,7 +1553,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 25:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:152: T__60
         {
             mT__60();
@@ -1561,7 +1561,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 26:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:158: T__61
         {
             mT__61();
@@ -1569,7 +1569,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 27:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:164: T__62
         {
             mT__62();
@@ -1577,7 +1577,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 28:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:170: T__63
         {
             mT__63();
@@ -1585,7 +1585,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 29:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:176: T__64
         {
             mT__64();
@@ -1593,7 +1593,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 30:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:182: T__65
         {
             mT__65();
@@ -1601,7 +1601,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 31:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:188: T__66
         {
             mT__66();
@@ -1609,7 +1609,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 32:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:194: T__67
         {
             mT__67();
@@ -1617,7 +1617,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 33:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:200: T__68
         {
             mT__68();
@@ -1625,7 +1625,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 34:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:206: T__69
         {
             mT__69();
@@ -1633,7 +1633,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 35:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:212: T__70
         {
             mT__70();
@@ -1641,7 +1641,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 36:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:218: T__71
         {
             mT__71();
@@ -1649,7 +1649,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 37:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:224: INTEGER
         {
             mINTEGER();
@@ -1657,7 +1657,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 38:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:232: STRING
         {
             mSTRING();
@@ -1665,7 +1665,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 39:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:239: IDENTIFIER
         {
             mIDENTIFIER();
@@ -1673,7 +1673,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 40:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:250: WS
         {
             mWS();
@@ -1681,7 +1681,7 @@ public class ABCLexer extends Lexer {
         }
             break;
         case 41:
-        // C:\\Users\\user\\Desktop\\MSC SOFTWARE Technology\\COMPILER
+        // C:\\Users\\user\\Desktop\\COMPILER
         // CONSTRUCTION 1\\PA1\\ANTLRStarterKit\\ABC.g:1:253: LINE_COMMENT
         {
             mLINE_COMMENT();
