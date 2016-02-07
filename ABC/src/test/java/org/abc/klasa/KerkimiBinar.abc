@@ -1,4 +1,4 @@
-klasa BinarySearch
+klasa KerkimiBinar
 {
     publike statike asgje kryesore(Tekst[] args)
     {
